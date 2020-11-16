@@ -1,3 +1,3 @@
 # Accounting
 Part of a larger system
-https://travis-ci.com/OkayJosh/Accounting.svg?branch=main
+[![Build Status](https://travis-ci.com/OkayJosh/Accounting.svg?branch=main)](https://travis-ci.com/OkayJosh/Accounting)
