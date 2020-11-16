@@ -6,7 +6,7 @@ install:
   - pip install -r requirements.txt
 # command to run tests
 script:
-  - python manage.py test
+  - python Accounting/manage.py test
 sudo: required
 services:
   - docker
