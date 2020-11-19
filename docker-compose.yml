@@ -8,10 +8,10 @@ services:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
   web:
-    build: .
+    build: ./accounting
     command: python manage.py runserver 0.0.0.0:8000
     volumes:
-      - .:/accounting/
+      - ./accounting/:/home/etentlabs/Documents/cloudsigma/container2/
     ports:
       - "8000:8000"
     depends_on:
